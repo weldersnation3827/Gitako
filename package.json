@@ -51,6 +51,7 @@
     "json-loader": "^0.5.7",
     "less": "^3.9.0",
     "less-loader": "^4.0.5",
+    "puppeteer": "^1.10.0",
     "react-life-hook": "^0.2.0",
     "style-loader": "^0.23.1",
     "typescript": "^3.3.3333",
