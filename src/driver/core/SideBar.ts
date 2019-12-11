@@ -167,7 +167,7 @@ export const setShouldShow: BoundMethodCreator<[
 }
 
 export const setError: BoundMethodCreator<[ConnectorState['error']]> = dispatch => error => {
-  dispatch.set({ error })
+  dispatch.set({ error, disabled: true })
   dispatch.call(setShouldShow, false)
 }
 
